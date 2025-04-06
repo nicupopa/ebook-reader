@@ -24,7 +24,7 @@
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
@@ -34,7 +34,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -42,9 +42,9 @@
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
@@ -341,7 +341,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <wire x1="-0.6" y1="-1.45" x2="-0.6" y2="1.45" width="0.2" layer="21"/>
 <wire x1="-1.85" y1="1.5" x2="-0.95" y2="1.5" width="0.2" layer="21"/>
 </package>
-<package name="FH34SRJ24S05SH99" library_version="3">
+<package name="FH34SRJ24S05SH99" library_version="12">
 <description>&lt;b&gt;FH34SRJ-24S-0.5SH(99)-4&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="5.75" y="1.45" dx="0.8" dy="0.3" layer="1" rot="R90"/>
@@ -1211,7 +1211,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BOOT_BUTTON" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="MYBUTTON" value="" x="24.03" y="108.909" smashed="yes" rot="R180">
+<element uuid="2882400020" name="BOOT_BUTTON" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="MYBUTTON" value="" x="24.03" y="108.909" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.3" y="106.369" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="C1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="EAGLE-LTSPICE_C0402" value="100nF" x="156.82" y="3.86" smashed="yes" rot="R90">
@@ -1226,7 +1226,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SPICEPREFIX" value="C" x="153.78" y="164.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="69.325" y="108.125" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C10_SUPERCAP" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="CAPCP3225X100N" value="CPH3225A" x="93.95" y="52.74" smashed="yes" rot="R270">
+<element uuid="2882400030" name="C10_SUPERCAP" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="CAPCP3225X100N" value="CPH3225A" x="93.95" y="52.74" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Not in stock" x="27.91" y="33.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/CPH3225A/Seiko+Instruments/view-part/?ref=eda" x="27.91" y="33.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" 11 mF (EDLC) Supercapacitor 3.3 V 1210 (3225 Metric) - - " x="27.91" y="33.69" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1269,7 +1269,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SPICEPREFIX" value="C" x="214.1" y="105.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="134.725" y="48.745" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="RCL_CT3528" value="100uF TANT" x="131.71" y="35" smashed="yes" rot="R90">
+<element uuid="2882400008" name="C3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="RCL_CT3528" value="100uF TANT" x="131.71" y="35" smashed="yes" rot="R90">
 <attribute name="NAME" x="129.805" y="32.46" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="182.51" y="81.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="182.51" y="81.99" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1317,13 +1317,13 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SPICEPREFIX" value="C" x="177.92" y="102.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="93.465" y="61.525" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C9" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_EAGLE-LTSPICE_C0402" value="100nF" x="7.34" y="100.06" smashed="yes" rot="R90">
+<element uuid="2882400033" name="C9" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_EAGLE-LTSPICE_C0402" value="100nF" x="7.34" y="100.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.705" y="99.425" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEMODEL" value="NONE" x="93.7" y="148.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="93.7" y="148.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="9.245" y="99.425" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="CHANGE_BUTTON" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="MYBUTTON" value="" x="63.96" y="108.909" smashed="yes" rot="R180">
+<element uuid="2882400035" name="CHANGE_BUTTON" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="MYBUTTON" value="" x="63.96" y="108.909" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.23" y="106.369" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="CHG_LED" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ADAFRUIT_CHIP-LED0603" value="" x="124.64" y="47.85" smashed="yes" rot="R90">
@@ -1336,7 +1336,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SPICEPREFIX" value="C" x="123.21" y="145.33" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="53.995" y="102.785" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOT95P280X145-6N" value="USBLC6-2SC6Y" x="154.68" y="47.7" smashed="yes">
+<element uuid="2882400000" name="D1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOT95P280X145-6N" value="USBLC6-2SC6Y" x="154.68" y="47.7" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="175" y="-53.9" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=eda" x="175" y="-53.9" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" 17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="175" y="-53.9" size="1.778" layer="27" display="off"/>
@@ -1404,7 +1404,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C" x="227.56" y="80.66" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-55°C" x="227.56" y="80.66" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOD3716X135N" value="MBR0530" x="83.45" y="33.4" smashed="yes">
+<element uuid="2882400053" name="D3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOD3716X135N" value="MBR0530" x="83.45" y="33.4" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="166" y="-68.2" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=eda" x="166" y="-68.2" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="166" y="-68.2" size="1.778" layer="27" display="off"/>
@@ -1417,7 +1417,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=snap" x="166" y="-68.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="83.45" y="33.4" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOD3716X135N" value="MBR0530" x="90.89" y="29.1" smashed="yes">
+<element uuid="2882400054" name="D4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOD3716X135N" value="MBR0530" x="90.89" y="29.1" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="183.6" y="-72.5" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=eda" x="183.6" y="-72.5" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="183.6" y="-72.5" size="1.778" layer="27" display="off"/>
@@ -1430,7 +1430,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=snap" x="183.6" y="-72.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="90.89" y="29.1" size="1.27" layer="27" align="center"/>
 </element>
-<element name="D5" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOD3716X135N" value="MBR0530" x="90.82" y="25.38" smashed="yes">
+<element uuid="2882400055" name="D5" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOD3716X135N" value="MBR0530" x="90.82" y="25.38" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="108.6" y="-81.3" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MBR0530/Onsemi/view-part/?ref=eda" x="108.6" y="-81.3" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="108.6" y="-81.3" size="1.778" layer="27" display="off"/>
@@ -1473,7 +1473,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C" x="138.7" y="-40.2" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-55°C" x="138.7" y="-40.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D8" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="DIOC1608X36N" value="PGB1010603MR" x="13.56" y="98.1" smashed="yes">
+<element uuid="2882400039" name="D8" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="DIOC1608X36N" value="PGB1010603MR" x="13.56" y="98.1" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="54.2" y="-3.5" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/PGB1010603MR/Littelfuse/view-part/?ref=eda" x="54.2" y="-3.5" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" 150V (Typ) Clamp - Ipp Tvs Diode Surface Mount 0603 (1608 Metric) " x="54.2" y="-3.5" size="1.778" layer="27" display="off"/>
@@ -1559,7 +1559,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SPICEPREFIX" value="C" x="162.38" y="58.48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="83.005" y="19.745" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="IC1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOT95P280X125-5N" value="BD5229G-TR" x="49.23" y="103.12" smashed="yes">
+<element uuid="2882400022" name="IC1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOT95P280X125-5N" value="BD5229G-TR" x="49.23" y="103.12" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="126.7" y="6.6" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="126.7" y="6.6" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Voltage Detector with Adjustable Delay Time: CMOS processes are utilized to develop high precision, low current consumption CMOS reset ICs that allow arbitrary setting of the delay time. The extensive lineup includes both Nch Open Drain and CMOS output types in a wide range of detection voltages (from 2.3V to 6.0V, in 0.1V steps), enabling selection of the ideal solution based on customer requirements. In addition, the entire series is of course both lead-free and RoHS-compliant." x="126.7" y="6.6" size="1.778" layer="27" display="off"/>
@@ -1571,7 +1571,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="NAME" x="49.23" y="103.12" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="49.23" y="103.12" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOT95P280X120-5N" value="XC6220A331MR-G" x="126.47" y="36.12" smashed="yes">
+<element uuid="2882400050" name="IC4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOT95P280X120-5N" value="XC6220A331MR-G" x="126.47" y="36.12" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="188.7" y="-60.4" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="188.7" y="-60.4" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="LDO Voltage Regulators" x="188.7" y="-60.4" size="1.778" layer="27" display="off"/>
@@ -1583,7 +1583,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="NAME" x="126.47" y="36.12" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="126.47" y="36.12" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="FH34SRJ24S05SH99" value="FH34SRJ-24S-0.5SH_99_" x="85.45" y="13.02" smashed="yes">
+<element uuid="2882400057" name="J1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="FH34SRJ24S05SH99" value="FH34SRJ-24S-0.5SH_99_" x="85.45" y="13.02" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="168" y="-45.4" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="168" y="-45.4" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="24 Position FFC, FPC Connector Contacts, Top and Bottom 0.020&quot; (0.50mm) Surface Mount, Right Angle" x="168" y="-45.4" size="1.778" layer="27" display="off"/>
@@ -1595,7 +1595,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="NAME" x="85.45" y="13.22" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="85.45" y="13.22" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SAMACSYS_PARTS_USB4110GFA" value="SAMACSYS_PARTS_USB4110-GF-A" x="167.973" y="54.26" smashed="yes" rot="R90">
+<element uuid="2882400002" name="J2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SAMACSYS_PARTS_USB4110GFA" value="SAMACSYS_PARTS_USB4110-GF-A" x="167.973" y="54.26" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="203.533" y="96.17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="203.533" y="96.17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CONN USB 2.0 TYPE-C R/A SMT" x="203.533" y="96.17" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1607,12 +1607,12 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="NAME" x="167.437" y="54.26" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="167.437" y="54.26" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="J3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="JST04_1MM_RA" package3d_urn="urn:adsk.eagle:package:41390393/1" value="QWIIC_RIGHT_ANGLE" x="165.225" y="19.36" smashed="yes" rot="R90">
+<element uuid="2882400004" name="J3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="JST04_1MM_RA" package3d_urn="urn:adsk.eagle:package:41390393/1" value="QWIIC_RIGHT_ANGLE" x="165.225" y="19.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="167.384" y="17.963" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-13694" x="226.185" y="86.67" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="168.527" y="17.709" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="J4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="112ATAARR03ATTEND" value="112A-TAAR-R03_ATTEND" x="5.816" y="95.8076" smashed="yes" rot="R270">
+<element uuid="2882400016" name="J4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="112ATAARR03ATTEND" value="112A-TAAR-R03_ATTEND" x="5.816" y="95.8076" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="" x="-0.534" y="9.4476" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-0.534" y="9.4476" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="Micro SD Card Socket, Push-Push Type, Top Mount, SMT, H=1.83mm, 10u" x="-0.534" y="9.4476" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1626,31 +1626,31 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="NAME" x="8.916" y="88.7126" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="8.916" y="88.7126" size="1.27" layer="27" align="center"/>
 </element>
-<element name="L1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="IND_4828-WE-TPC_WRE" value="68uH" x="83.37" y="28.25" smashed="yes">
+<element uuid="2882400028" name="L1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="IND_4828-WE-TPC_WRE" value="68uH" x="83.37" y="28.25" smashed="yes">
 <attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="132.9" y="9.2" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="744043680" x="132.9" y="9.2" size="1.778" layer="27" display="off"/>
 <attribute name="MFR_NAME" value="Wurth Electronics" x="132.9" y="9.2" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="80.0988" y="27.615" size="1.27" layer="27" ratio="6"/>
 <attribute name="VALUE" x="81.6412" y="27.615" size="1.27" layer="27" ratio="6"/>
 </element>
-<element name="PFMF.050.1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32C6_VARISTOR_CT/CN1812" value="ESP32C6_VARISTORCN1812" x="153.74" y="40.4" smashed="yes">
+<element uuid="2882400006" name="PFMF.050.1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32C6_VARISTOR_CT/CN1812" value="ESP32C6_VARISTORCN1812" x="153.74" y="40.4" smashed="yes">
 <attribute name="NAME" x="151.24" y="42.9" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="0" x="189.3" y="-10.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="151.24" y="36.9" size="1.27" layer="27"/>
 </element>
-<element name="Q1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_SPARKFUN-DISCRETESEMI_SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="135.06" y="43.76" smashed="yes">
+<element uuid="2882400048" name="Q1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_SPARKFUN-DISCRETESEMI_SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="135.06" y="43.76" smashed="yes">
 <attribute name="MANUFACTURER" value="DMG2305UX-7" x="213.8" y="8.2" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="133.409" y="43.76" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="TRAN-14388" x="213.8" y="8.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="136.711" y="43.76" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="Q2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_SPARKFUN-DISCRETESEMI_SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="69.28" y="15.26" smashed="yes">
+<element uuid="2882400063" name="Q2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_SPARKFUN-DISCRETESEMI_SOT23-3" value="20V/4.2A/52mΩ/1.4W" x="69.28" y="15.26" smashed="yes">
 <attribute name="MANUFACTURER" value="DMG2305UX-7" x="153.1" y="-20.3" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="67.629" y="15.26" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="TRAN-14388" x="153.1" y="-20.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="70.931" y="15.26" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="Q3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOT65P210X110-3N" value="SI1308EDL-T1-GE3" x="79.15" y="24.88" smashed="yes">
+<element uuid="2882400036" name="Q3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOT65P210X110-3N" value="SI1308EDL-T1-GE3" x="79.15" y="24.88" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="110.9" y="-81.8" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay+Siliconix/view-part/?ref=eda" x="110.9" y="-81.8" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Si1308EDL-T1-GE3 N-channel MOSFET Transistor, 1.5 A, 30 V, 3-Pin SC-70 | Siliconix / Vishay SI1308EDL-T1-GE3 " x="110.9" y="-81.8" size="1.778" layer="27" display="off"/>
@@ -1815,7 +1815,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="VALUE" x="11.095" y="99.405" size="1.27" layer="27" rot="R90"/>
 <attribute name="VALUE" x="11.095" y="99.405" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RESET_BUTTON" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="MYBUTTON" value="" x="48.95" y="108.909" smashed="yes" rot="R180">
+<element uuid="2882400061" name="RESET_BUTTON" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="MYBUTTON" value="" x="48.95" y="108.909" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.22" y="106.369" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="R_BOOT" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_EAGLE-LTSPICE_R0402" value="10K" x="20.63" y="108.7" smashed="yes" rot="R90">
@@ -1858,7 +1858,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="VALUE" x="47.415" y="108.085" size="1.27" layer="27" rot="R90"/>
 <attribute name="VALUE" x="47.415" y="108.085" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="SENSOR2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_BME680_PSON80P300X300X100-8N" value="BME688" x="155.21" y="8.92" smashed="yes" rot="R90">
+<element uuid="2882400010" name="SENSOR2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_BME680_PSON80P300X300X100-8N" value="BME688" x="155.21" y="8.92" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Unavailable" x="213.63" y="43.21" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Integrated Environmental Unit " x="213.63" y="43.21" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Bosch Sensortec" x="213.63" y="43.21" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1868,7 +1868,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="PRICE" value="None" x="213.63" y="43.21" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="157.970059375" y="6.992559375" size="0.81416875" layer="27" ratio="11" rot="R90"/>
 </element>
-<element name="SJ1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SJ" value="" x="66.5" y="8.32" smashed="yes">
+<element uuid="2882400059" name="SJ1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SJ" value="" x="66.5" y="8.32" smashed="yes">
 <attribute name="NAME" x="64.849" y="9.463" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="3" x="117.3" y="-88.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="66.9001" y="8.32" size="0.02" layer="27"/>
@@ -1975,12 +1975,12 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="6.41" y="34.18" size="1" layer="37"/>
 <attribute name="VALUE" x="5.648" y="35.704" size="0.0254" layer="27"/>
 </element>
-<element name="U1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_SPARKFUN-IC-POWER_SOT23-5" value="MCP73831" x="128.36" y="46.69" smashed="yes" rot="R90">
+<element uuid="2882400012" name="U1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="ESP32_WROVER_SPARKFUN-IC-POWER_SOT23-5" value="MCP73831" x="128.36" y="46.69" smashed="yes" rot="R90">
 <attribute name="NAME" x="126.201" y="44.912" size="0.6096" layer="25" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="IC-09995" x="188.05" y="87.33" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="131.154" y="44.912" size="0.6096" layer="27" ratio="20" rot="R90"/>
 </element>
-<element name="U2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="XCVR_ESP32-C6-WROOM-1-N8" value="ESP32-C6-WROOM-1-N8" x="13.126" y="57.591525" smashed="yes" rot="R90">
+<element uuid="2882400019" name="U2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="XCVR_ESP32-C6-WROOM-1-N8" value="ESP32-C6-WROOM-1-N8" x="13.126" y="57.591525" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="28.366" y="82.991525" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif+Systems/view-part/?ref=eda" x="28.366" y="82.991525" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Multiprotocol Modules ESP32-C6 module, Wi-Fi 6 in 2.4 GHz band, Bluetooth 5, Zigbee 3.0 and Thread. ESP34-WROOM Compatible - ENGINEERING SAMPLE " x="28.366" y="82.991525" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1992,7 +1992,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif+Systems/view-part/?ref=snap" x="28.366" y="82.991525" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="27.626" y="48.591525" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SON127P600X800X80-9N" value="W25Q512JVEIQ" x="36.09" y="58.06" smashed="yes">
+<element uuid="2882400026" name="U3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SON127P600X800X80-9N" value="W25Q512JVEIQ" x="36.09" y="58.06" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="103.4" y="22.5" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond+Electronics/view-part/?ref=eda" x="103.4" y="22.5" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" FLASH - NOR Memory IC 512Mb (64M x 8) SPI - Quad I/O 133 MHz 8-WSON (8x6) " x="103.4" y="22.5" size="1.778" layer="27" display="off"/>
@@ -2004,7 +2004,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond+Electronics/view-part/?ref=snap" x="103.4" y="22.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.475" y="54.58" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="U4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SON50P200X200X80-9N" value="MAX17048G+T10" x="137.45" y="49.92" smashed="yes">
+<element uuid="2882400014" name="U4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SON50P200X200X80-9N" value="MAX17048G+T10" x="137.45" y="49.92" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="194.6" y="-8.5" size="1.778" layer="27" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=eda" x="194.6" y="-8.5" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" 3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge " x="194.6" y="-8.5" size="1.778" layer="27" display="off"/>
@@ -2017,7 +2017,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=snap" x="194.6" y="-8.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="135.64" y="48.538" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="U5" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOIC127P1032X265-16N" value="DS3231SN#" x="84.55" y="56.8" smashed="yes" rot="R270">
+<element uuid="2882400024" name="U5" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf._sVuX4PHRbOtnyzjeYn7JQ" package="SOIC127P1032X265-16N" value="DS3231SN#" x="84.55" y="56.8" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="46.45" y="37.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/DS3231SN%23/Analog+Devices/view-part/?ref=eda" x="46.45" y="37.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Extremely Accurate I²C-Integrated RTC/TCXO/Crystal " x="46.45" y="37.75" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2845,6 +2845,8 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <vertex x="6.3762" y="48.38484375"/>
 </polygon>
 <contactref element="EPD_C11" pad="2"/>
+<wire x1="74.99775" y1="18.005" x2="75.01" y2="17.97" width="0" layer="19" extent="1-1"/>
+<wire x1="74.99775" y1="18.07425" x2="74.99775" y2="18.005" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2-USB1" pad="2"/>
