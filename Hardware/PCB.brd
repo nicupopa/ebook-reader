@@ -24,7 +24,7 @@
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
@@ -35,30 +35,30 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -1036,7 +1036,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <class number="1" name="New Class" width="0.3" drill="0">
 </class>
 </classes>
-<designrules name="jlcpcb-2layers.dru">
+<designrules name="jlcpcb-2layers.dru *">
 <param name="mdWireWire" value="5mil"/>
 <param name="mdWirePad" value="5mil"/>
 <param name="mdWireVia" value="5mil"/>
@@ -2845,8 +2845,6 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <vertex x="6.3762" y="48.38484375"/>
 </polygon>
 <contactref element="EPD_C11" pad="2"/>
-<wire x1="74.99775" y1="18.005" x2="75.01" y2="17.97" width="0" layer="19" extent="1-1"/>
-<wire x1="74.99775" y1="18.07425" x2="74.99775" y2="18.005" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2-USB1" pad="2"/>
@@ -2892,7 +2890,12 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="164.33025" y1="54.569" x2="164.295" y2="54.51" width="0.15" layer="1"/>
 <wire x1="155.88175" y1="46.813" x2="155.93" y2="46.75" width="0.15" layer="1"/>
 <contactref element="J2" pad="B7"/>
-<wire x1="164.295" y1="54.51" x2="164.295" y2="53.51" width="0" layer="19" extent="1-1"/>
+<wire x1="164.88425" y1="53.53025" x2="164.33025" y2="53.53025" width="0.15" layer="1"/>
+<wire x1="165.092" y1="53.738" x2="164.88425" y2="53.53025" width="0.15" layer="1"/>
+<wire x1="165.092" y1="54.292" x2="165.092" y2="53.738" width="0.15" layer="1"/>
+<wire x1="164.88425" y1="54.49975" x2="165.092" y2="54.292" width="0.15" layer="1"/>
+<wire x1="164.33025" y1="53.53025" x2="164.295" y2="53.51" width="0.15" layer="1"/>
+<wire x1="164.88425" y1="54.49975" x2="164.88425" y2="54.569" width="0.15" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="J2" pad="B5"/>
@@ -4181,7 +4184,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <contactref element="RESET_BUTTON" pad="3"/>
 <contactref element="RESET_BUTTON" pad="4"/>
 <contactref element="C5" pad="1"/>
-<wire x1="46.9515" y1="109.415" x2="45.5665" y2="109.415" width="0.15" layer="1"/>
+<wire x1="46.9515" y1="109.415" x2="45.49725" y2="109.415" width="0.15" layer="1"/>
 <wire x1="47.15925" y1="109.62275" x2="46.9515" y2="109.415" width="0.15" layer="1"/>
 <wire x1="47.15925" y1="109.62275" x2="47.2" y2="109.659" width="0.15" layer="1"/>
 <wire x1="50.76025" y1="109.692" x2="52.353" y2="108.09925" width="0.15" layer="1"/>
@@ -4191,7 +4194,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="47.2285" y1="109.692" x2="47.2" y2="109.659" width="0.15" layer="1"/>
 <wire x1="50.691" y1="109.692" x2="50.7" y2="109.659" width="0.15" layer="1"/>
 <contactref element="R_RESET" pad="2"/>
-<wire x1="45.51" y1="109.37" x2="45.5665" y2="109.415" width="0" layer="19" extent="1-1"/>
+<wire x1="45.49725" y1="109.415" x2="45.51" y2="109.37" width="0.15" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R10" pad="1"/>
